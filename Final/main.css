@@ -1,0 +1,497 @@
+body {
+  overflow-x: hidden;
+}
+url
+/* Above navbar CSS start */
+* {
+  margin: 0;
+  padding: 0;
+}
+.abovenav {
+  background-color: whitesmoke;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 1vw 2vw;
+  color: black;
+  display: flex;
+}
+.name span {
+  color: red;
+}
+.name {
+  letter-spacing: 0.5vw;
+  color: blue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-right: 48vw;
+  cursor: pointer;
+}
+.abovenav ion-icon {
+  font-size: 1.8vw;
+  border-radius: 5px;
+  margin-right: 1vw;
+  color: white;
+  padding: 0.5vw;
+  background-color: #202c45;
+}
+.call {
+  margin-right: 5vw;
+}
+.callus,
+.we {
+  color: grey;
+  font-size: 1.2vw;
+}
+.number,
+.day {
+  font-size: 1vw;
+}
+.abovenav ion-icon:hover {
+  box-shadow: 2px 3px 5px black;
+}
+/* Above navbar CSS end */
+
+/*Navbar CSS Start*/
+a {
+  text-decoration: none;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #202c45;
+  padding: 1vw 5vw;
+  display: flex;
+  color: white;
+  font-size: 1.2vw;
+  border-bottom: 1px solid #f2184f;
+}
+.all {
+  padding: 0.5vw 1.5vw;
+  margin-right: 2vw;
+}
+.all:hover {
+  color: #202c45;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 5px 8px #151d2d;
+  cursor: pointer;
+}
+.home {
+  background-color: #fff;
+  color: #202c45;
+  border-radius: 5px;
+  box-shadow: 2px 5px 8px #151d2d;
+}
+.book {
+  padding: 0.5vw 1.5vw;
+  font-size: 1.4vw;
+  background-color: #f2184f;
+  margin-left: 28vw;
+}
+.book:hover {
+  box-shadow: 2px 5px 9px #af1239;
+  cursor: pointer;
+}
+/*Navbar CSS End*/
+
+/*Navdown start*/
+.navbardown {
+  background-image: url("navdownimg1.jpg");
+  background-size: cover;
+  color: white;
+  padding: 12vw 15vw;
+}
+.education {
+  font-size: 5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.for {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1vw;
+  padding: 1vw;
+  padding-left: 2vw;
+  border-left: 1vw solid #f2184f;
+  font-size: 2vw;
+  background-color: rgba(32, 44, 69, 0.75);
+  width: 28.4vw;
+}
+.commit {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+  margin-top: 1vw;
+  width: 25vw;
+}
+.viewdetails a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1vw;
+  padding-left: 1vw;
+  font-size: 1.2vw;
+  border-left: 1vw solid #f2184f;
+  background-color: rgba(32, 44, 69, 0.75);
+  width: 28.4vw;
+}
+/*Navdown end*/
+
+/*down k baad ki CSS START*/
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Lato&display=swap");
+a {
+  text-decoration: none;
+  color: white;
+  /* text-shadow: 0 2px 3px black; */
+}
+
+button {
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  border-top: 2px solid #f2184f;
+  background-image: url("bg_header_bottom.jpg");
+  height: 60vh;
+  width: 100vw;
+}
+
+.divide,
+.from,
+.forget_register {
+  display: flex;
+}
+
+.divide {
+  position: relative;
+  padding: 5vw 10vw 0 10vw;
+}
+
+.one,
+.two {
+  width: 50vw;
+}
+
+.one {
+  padding-right: 5vw;
+}
+
+.throught {
+  color: white;
+  font-size: 2vw;
+  text-shadow: 1px 2px 8px black;
+  font-weight: 500;
+}
+
+.another {
+  font-size: 1.2vw;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.btns {
+  background-color: transparent;
+  padding: 1vw;
+  color: black;
+}
+
+.btns:hover {
+  background-color: rgb(255, 106, 0);
+  color: white;
+  transition: 0.2s;
+  border: none;
+  box-shadow: 0 2px 0 rgb(130, 35, 0);
+}
+
+.two {
+  background-color: rgb(232, 243, 251);
+  padding: 2vw;
+}
+
+.firstpart {
+  padding-right: 5vw;
+}
+
+.form_heading {
+  color: black;
+  font-family: "Baloo 2", cursive;
+  font-size: 2.5vw;
+  padding-left: 0.5vw;
+}
+
+.img_form {
+  padding-left: 2vw;
+}
+
+.logo {
+  padding-left: 3vw;
+}
+
+.logoname {
+  padding-left: 2.2vw;
+  line-height: 1vw;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: none;
+  background-color: rgb(232, 243, 251);
+  padding: 0.5vw 0;
+  border-bottom: 1px solid grey;
+  outline: none;
+}
+
+.ionicons {
+  position: absolute;
+  left: 84vw;
+  bottom: 12.8vw;
+}
+
+.forget_register {
+  font-size: 0.8vw;
+}
+
+.forget,
+.register {
+  background: transparent;
+  border: none;
+  padding: 0.2vw;
+  cursor: pointer;
+}
+
+.forget:hover {
+  color: blue;
+}
+
+.register:hover {
+  color: blue;
+}
+
+.loginbtn {
+  padding: 0.5vw 5vw;
+  border-radius: 10px;
+  background-color: rgb(255, 213, 0);
+  border: none;
+}
+
+.loginbtn:hover {
+  cursor: pointer;
+  border: 2px solid rgb(174, 145, 0);
+}
+
+.options {
+  position: absolute;
+  z-index: 1;
+  bottom: 10vw;
+  left: 35vw;
+  background-color: white;
+  padding: 1vw 2vw;
+  display: flex;
+  transform: scale(0.1);
+  visibility: hidden;
+  box-shadow: 2px 5px 9px black;
+  transition: transform 0.4s;
+}
+
+.openpop {
+  visibility: visible;
+  transform: scale(1);
+}
+
+.choose {
+  font-size: 2vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.option_button {
+  padding: 0vw 1vw;
+  margin: 0 1vw;
+  background-color: rgb(255, 204, 0);
+  border: 2px solid rgb(174, 145, 0);
+}
+
+.close {
+  position: relative;
+  top: 0.3vw;
+  font-size: 2vw;
+}
+
+.close:hover {
+  color: red;
+}
+
+/*down k baad ki CSS END*/
+
+/*fifth part CSS Start*/
+.nationalco {
+  background-color: white;
+  color: black;
+}
+.nationalcoordinator {
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5vw;
+}
+.boards {
+  display: flex;
+  margin-left: 8vw;
+}
+.allboard {
+  margin-right: 2.2vw;
+}
+.allboard img {
+  width: 7vw;
+}
+.boardname {
+  font-size: 1vw;
+  font-weight: 600;
+}
+/*fifth part CSS End*/
+
+/*System benifits CSS start*/
+.systembenifits {
+  background-color: white;
+  padding: 1vw 20vw;
+}
+.heading {
+  font-size: 2vw;
+  letter-spacing: 0.6vw;
+  color: black;
+  text-align: center;
+}
+.benifit1 {
+  display: flex;
+}
+.conent {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  font-size: 2.5vw;
+}
+.conent span {
+  color: black;
+  font-size: 1.5vw;
+}
+/*System benifits CSS end*/
+
+/*Why CSS start*/
+.whychoose_us {
+  background-color: white;
+  padding: 2vw 20vw;
+  display: flex;
+}
+.whychoose_us h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.whychoose_us h1 span {
+  color: red;
+}
+.whychoose_us p {
+  margin-top: 2vw;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5vw;
+}
+/*Why CSS end*/
+
+/*Our teacher CSS start*/
+.ourteacher {
+  border-bottom: 1px solid #f2184f;
+  background-color: #151d2d;
+  padding: 1vw 3.7vw;
+}
+.ourteacher .teacher {
+  color: white;
+  border-bottom: 1px solid #f2184f;
+  width: 20vw;
+  margin-bottom: 1vw;
+  font-size: 3vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ourteacher .list {
+  display: flex;
+}
+.ourteacher .teacher_one {
+  margin: 2vw;
+  width: 17vw;
+  background-color: rgb(229, 224, 224);
+  padding: 1vw;
+}
+
+.teacherdetails .name {
+  font-size: 1.5vw;
+  color: red;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+.ourteacher .teacherdetails .hooby {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ourteacher .teacher_content ion-icon {
+  color: black;
+  font-size: 1.8vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 1vw;
+}
+.ourteacher .insta ion-icon:hover {
+  color: red;
+}
+.ourteacher .face ion-icon:hover {
+  color: rgb(10, 10, 172);
+}
+.ourteacher .you ion-icon:hover {
+  color: red;
+}
+.ourteacher .twitter ion-icon:hover {
+  color: blue;
+}
+
+/*Our teacher CSS end*/
+
+/*newsletter CSS start*/
+.newsletter {
+  background-color: #f2184f;
+  padding: 1vw 10vw;
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.newsletter ion-icon {
+  margin-right: 1vw;
+  font-size: 3vw;
+  color: white;
+}
+.newsletter input[type="search"] {
+  width: 20vw;
+  margin-left: 5vw;
+  padding: 0.5vw;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  outline: none;
+}
+.newsletter button {
+  margin-left: 3vw;
+  color: #af1239;
+  padding: 0.5vw;
+}
+.newsletter button:hover {
+  box-shadow: 2px 5px 3px #af1239;
+}
+/*newsletter CSS end*/
+/*footere css start*/
+.footer {
+  background-color: black;
+  color: white;
+  font-size: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  justify-content: center;
+  padding: 1vw 0;
+}
+/*footere css end*/
